@@ -65,7 +65,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaa-cU-uF2">
                                         <rect key="frame" x="280" y="0.0" width="140" height="30"/>
-                                        <state key="normal" title="x"/>
+                                        <state key="normal" title="X"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8U-sN-0oS">
                                         <rect key="frame" x="420" y="0.0" width="140" height="30"/>
