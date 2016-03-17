@@ -58,18 +58,30 @@
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Phj-Ii-lQc">
                                         <rect key="frame" x="0.0" y="0.0" width="140" height="30"/>
                                         <state key="normal" title="+"/>
+                                        <connections>
+                                            <action selector="onOperationTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uac-iX-bKK"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Hv8-DI-734">
                                         <rect key="frame" x="140" y="0.0" width="140" height="30"/>
                                         <state key="normal" title="-"/>
+                                        <connections>
+                                            <action selector="onOperationTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dCf-r2-VYO"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaa-cU-uF2">
                                         <rect key="frame" x="280" y="0.0" width="140" height="30"/>
-                                        <state key="normal" title="x"/>
+                                        <state key="normal" title="X"/>
+                                        <connections>
+                                            <action selector="onOperationTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ITI-ul-r8l"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a8U-sN-0oS">
                                         <rect key="frame" x="420" y="0.0" width="140" height="30"/>
                                         <state key="normal" title="/"/>
+                                        <connections>
+                                            <action selector="onOperationTap:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Cnq-Kj-PY5"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -100,6 +112,12 @@
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="answerLabel" destination="iTF-n4-5SQ" id="4xg-94-VcH"/>
+                        <outlet property="operand1" destination="DAi-g8-Mrn" id="JpY-o0-wCA"/>
+                        <outlet property="operand2" destination="Z1R-nW-khS" id="t8J-e5-ihY"/>
+                        <outlet property="operandLabel" destination="wod-Sz-HTC" id="9ij-6R-OVh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
