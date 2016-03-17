@@ -28,8 +28,8 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)onOperationTap:(UIButton *)sender {
-    NSLog(@"%@ got tapped", sender);
-    NSLog(@"%@ got tapped", sender.titleLabel.text);
+    double op1 = self.operand1.text.doubleValue;
+    double op2 = self.operand2.text.doubleValue;
 }
 
 @end
